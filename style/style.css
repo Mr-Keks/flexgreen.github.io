@@ -1,0 +1,86 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	display: flex;
+	height: 75px;
+	background-color: green;
+}
+.he1, .he2{
+
+	margin: 5px; 
+	border: 1px solid silver;
+	height: 60px;
+
+}
+.he1 {
+	flex-grow: 10;
+}
+.he2{ 
+	flex-grow: 1;
+}
+
+h1 {
+	margin: 10px;
+	color: white;
+}
+
+.he2 img {
+	float: right;
+}
+/*менюшка*/
+.menu{
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
+}
+
+.menu div {
+	border: 1px solid black;
+	margin: 20px;
+	padding:10px;
+	width: 100px;
+	height: 50px;
+	
+}
+
+.menu p {
+	border: 1px solid red;
+	text-align: center;
+	padding:5px;
+	font-size: 15pt;
+	margin-top: 10px;
+
+}
+
+/*Контент*/
+main{
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid violet;
+	padding: 10px;
+}
+
+.m1{	
+	border: 1px solid cyan;
+	width: 64%;
+	padding: 5px;
+}
+
+.m2{
+	border: 1px solid magenta;
+	width: 30%;
+	padding: 5px;
+}
+.m2 img{
+	height: 120px;
+	width: 130px;
+	padding-left: 15px;
+}
+header, nav, footer {
+	background-color: #4ac14a;
+}
+main {
+	background-color: #9df192;
+}
